@@ -1,0 +1,5 @@
+name: Twinking
+version: ${project.version}
+main: com.github.bryanser.twinking.Main
+depend: [BrAPI]
+authors: [Bryan_lzh]
