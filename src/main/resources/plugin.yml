@@ -1,5 +1,11 @@
 name: Twinking
 version: ${project.version}
 main: com.github.bryanser.twinking.Main
-depend: [BrAPI]
+depend: [BrAPI,MythicMobs,PlaceholderAPI]
 authors: [Bryan_lzh]
+commands:
+    Twinking:
+        aliases: [tw,sj]
+        usage: |
+            §6/<command> >> 打开UI
+            §6/<command> reload >> 重载插件

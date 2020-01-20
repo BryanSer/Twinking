@@ -1,0 +1,27 @@
+#本文件表示进阶序列
+#一个文件只能有一个起始物品状态
+Setting:
+    #序列名
+    name: 'example'
+    #起始物品条件
+    item:
+        id: 276
+        data: 0
+        name: '&a新手装备'
+Sequences:
+    #列表的写法
+        #填写进阶的依赖, start表示为起始物品
+        #注意 其他的物品不要写start了
+    - depend: start
+      key: 'A'
+    - depend: start
+      key: 'E'
+    - depend: 'A'
+      key: 'B'
+    - depend: 'A'
+      key: 'C'
+    - depend: 'B'
+      key: 'B2'
+    - depend: 'C'
+      key: 'C2'
+      
